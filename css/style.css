@@ -1,0 +1,112 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body
+{
+    color: #484848;
+    font-family: 'Lato', sans-serif;
+    padding: 0.45em 2.65em 3em;
+    line-height: 1.5;
+}
+
+h1
+{
+    margin-bottom: 0;
+}
+
+h1 + p
+{
+    font-size: 1.30em;
+    color: #7fcc95;
+    margin-top: 0.5em;
+    margin-bottom: 0.75em;
+    padding-bottom: 1.325em;
+    border-bottom: 1px dotted;
+}
+
+ul
+{
+    padding-left: 0;
+    list-style: none;
+}
+
+li
+{
+    padding: 0.45em 0.5em;
+    margin-bottom: 0.35em;
+    display: flex;
+    align-items: center;
+}
+
+input, button
+{
+    font-size: 0.85em;
+    padding: 0.65em 1em;
+    border-radius: 0.3em;
+    outline: 0;
+}
+
+input
+{
+    border: 1px solid #dcdcdc;
+    margin-right: 1em;
+}
+
+div
+{
+    margin-top: 2.8em;
+    padding: 1.5em 0 0.5em;
+    border-top: 1px dotted #637a91;
+}
+
+p.description, p:nth-of-type(2)
+{
+    font-weight: bold;
+}
+
+/* Buttons */
+
+button
+{
+    color: white;
+    background: #78578a;
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+button + button
+{
+    margin-left: 0.5em;
+}
+
+p + button
+{
+    background: #52bab3;
+}
+
+.list button + button
+{
+    background: #78578a;
+}
+
+.list li button + button
+{
+    background: #78578a;
+}
+
+li button:first-child
+{
+    margin-left: auto;
+    background: #52bab3;
+}
+
+.list li button:last-child
+{
+    background: #768da3;
+}
+
+li button
+{
+    font-size: 0.75em;
+    padding: 0.5em 0.65em;
+}
